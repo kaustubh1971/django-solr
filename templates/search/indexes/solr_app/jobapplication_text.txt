@@ -1,0 +1,17 @@
+{{ object.name }}
+{{ object.email }}
+{{ object.why_us }}
+{{ object.why_you }}
+{{ object.social_profile_link }}
+{{ object.resume_link }}
+{{ object.mobile_number }}
+{{ object.role }}
+{{ object.other_role }}
+{{ object.experience }}
+{{ object.preferred_location }}
+{{ object.preferred_time_for_call }}
+{{ object.current_ctc }}
+{{ object.notice_period }}
+{{ object.timestamp }}
+
+
