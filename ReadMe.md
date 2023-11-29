@@ -46,23 +46,23 @@ python manage.py migrate
 6. Generate your schema on Solr by visiting localhost:8983 location for a specific core
    - This is a very important point if you dont do that them your datatype wont be proper since we describe the datatypes in django(python) which are not supported by Java. 
 
-| fields                  | types  |
-|-------------------------|--------|
-| name                    | string |
-| email | string |                   
-| why_us | string |                  
-| why_you | string |                 
-| social_profile_link | string |     
-| resume_link | string |             
-| mobile_number | string |           
-| role | string |                    
-| other_role | string |              
-| experience | string |              
-| preferred_location | string |      
-| preferred_time_for_call | string | 
-| current_ctc | pint   |             
-| notice_period | pint   |           
-| timestamp| pdate  |
+| fields                  | types  | default    |
+|-------------------------|--------|------------|
+| name                    | string | space(' ') |
+| email | string | space(' ') |
+| why_us | string | space(' ') |
+| why_you | string | space(' ') |
+| social_profile_link | string | space(' ') |
+| resume_link | string | space(' ') |
+| mobile_number | string | space(' ') |
+| role | string | space(' ') |
+| other_role | string | space(' ') |
+| experience | string | 0          |
+| preferred_location | string | space(' ') |
+| preferred_time_for_call | string | space(' ') |
+| current_ctc | pint   | 0          |
+| notice_period | pint   | 0          |
+| timestamp| pdate  |  |
 
 
 
